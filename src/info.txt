@@ -1,0 +1,6 @@
+npm install
+npm install react-bootstrap bootstrap
+npm install -g mdb
+npm install bootstrap
+npm install redux
+npm install font-awesome --save
