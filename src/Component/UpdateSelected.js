@@ -38,7 +38,7 @@ export default function UpdateSelected() {
   const handleSubmit = (e) => {
     e.preventDefault();
     let data = JSON.stringify(category);
-    fetch(`https://server3-route-hitendra7-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com//admins/${url}/${code}`, {
+    fetch(`https://server3-route-hitendra7-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/admins/${url}/${code}`, {
       method: "PUT",
       headers: { "Content-type": "application/json" },
       body: data,
