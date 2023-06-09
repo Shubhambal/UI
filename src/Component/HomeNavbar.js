@@ -98,7 +98,7 @@ export default function Example() {
                   <img
                     className="hidden h-8 w-auto lg:block mx-5"
                     src="../images/OneStop.JPG"
-                    alt="Company Logo"
+                    alt="Company Logo11"
                     onClick={handleClickLogo}
                   />
                 </div>
