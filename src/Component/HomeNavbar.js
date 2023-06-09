@@ -97,7 +97,7 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center" >
                   <img
                     className="hidden h-8 w-auto lg:block mx-5"
-                    src="../images/Onestop.jpg"
+                    src="../images/OneStop.JPG"
                     alt="Your Company"
                     onClick={handleClickLogo}
                   />
