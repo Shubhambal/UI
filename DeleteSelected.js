@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
@@ -9,7 +10,7 @@ export default function DeleteSelected() {
   const [record, setRecord] = useState({});
 
   useEffect(() => {
-    const apiUrl = `http://localhost:8080/api/admin/${url}/${code}`;
+    const apiUrl = `http://localhost:8080/admins/${url}/${code}`;
     console.log(apiUrl);
     fetch(apiUrl)
       .then((response) => response.json())
@@ -105,3 +106,4 @@ export default function DeleteSelected() {
     </div>
   );
 }
+

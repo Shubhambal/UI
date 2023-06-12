@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { Button, Table } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
@@ -8,7 +9,7 @@ export default function DisplaySelected() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const apiUrl = `http://localhost:8080/api/admin/${url}/${code}`;
+    const apiUrl = `http://localhost:8080/admins/${url}/${code}`;
 
     fetch(apiUrl)
       .then((response) => response.json())
@@ -94,3 +95,4 @@ export default function DisplaySelected() {
     </div>
   );
 }
+
