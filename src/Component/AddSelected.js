@@ -36,7 +36,7 @@ export default function AddSelected() {
   const handleSubmit = (e) => {
     e.preventDefault();
     let data = JSON.stringify(category);
-    fetch(`https://server3-route-omkar-07-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/admins/${url}`, {
+    fetch(`https://server4-route-hitendra7-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/admins/${url}`, {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: data,
